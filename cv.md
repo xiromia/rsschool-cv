@@ -6,7 +6,7 @@
 
 **About myself**
 
-Three years ago i have finished my university and get the job. But i dont feel that i like these job. When i was one the last course of university i start to think that job is wrong for me. I am trying to learn something new and now it's programming. I enjoy programming and i hope that these courses help me get better in it.
+I'm a lawyer and for the last two years i'm thinking i made a mistake. I dont like my job and it's too hard focus on it. I just want to find myself, thats the main reason why i desided to join courses. 
 
 **Skills**: 
 * HTML
@@ -16,8 +16,14 @@ Three years ago i have finished my university and get the job. But i dont feel t
 * Git
 
 **Code**: 
-```python
-  print(Hello world)
+```
+const menuItem = document.querySelector('.menu-btn');
+const menuList = document.querySelector('.menu-list');
+menuItem.addEventListener('click', function() {
+    menuItem.classList.toggle('active');
+    menuList.classList.toggle('active');
+});
+
 ```
 **Work Experience**
 

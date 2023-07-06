@@ -4,6 +4,9 @@
 	border: 0;
 }
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 
 .wrapper {
 	min-height: 100vh;
@@ -18,8 +21,7 @@
 }
 
 .header {
-	background-color: rgb(0, 68, 255);
-	
+	background: linear-gradient(90deg, #4D68FD, #9729F7);
 }
 
 .container {
@@ -33,7 +35,7 @@
 }
 
 .flex__item {
-	padding: 15px 0px;
+	padding: 30px 0px;
 }
 
 ul {
@@ -47,4 +49,70 @@ ul > li {
 a {
 	text-decoration: none;
 	color: white;
+}
+
+.about {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.about__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.about__img {
+	border: 5px solid #4D68FD;
+	border-radius: 50%;
+	margin: 0px 0px 20px 0px;
+}
+
+.contacts {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.contacts__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.skills {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.skills__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.code {
+	margin: 70px 0px 0px 0px;
+}
+
+.code__title {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.education {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.education__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.english {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.english__title {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
 }

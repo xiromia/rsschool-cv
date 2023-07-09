@@ -4,6 +4,10 @@
 	border: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -106,6 +110,15 @@ a {
 .education__title {
 	text-transform: uppercase;
 	margin: 0px 0px 20px 0px;
+}
+
+.projects {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.projects__title {
+	text-transform: uppercase;
 }
 
 .english {

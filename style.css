@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.header {
+	background: linear-gradient(90deg, #4D68FD, #9729F7);
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.flex__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex__item {
+	padding: 30px 0px;
+}
+
+ul {
+	padding: 0;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.about {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.about__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.about__img {
+	border: 5px solid #4D68FD;
+	border-radius: 50%;
+	margin: 0px 0px 20px 0px;
+}
+
+.contacts {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.contacts__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.skills {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.skills__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.code {
+	margin: 70px 0px 0px 0px;
+	text-align: center;
+}
+
+.code__title {
+
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.education {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.education__title {
+	text-transform: uppercase;
+	margin: 0px 0px 20px 0px;
+}
+
+.projects {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.projects__title {
+	text-transform: uppercase;
+}
+
+.english {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+.english__title {
+	text-align: center;
+	margin: 70px 0px 0px 0px;
+}
+
+footer {
+	margin-top: 50px;
+	border-top: 2px solid black;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.github__link {
+	color: black;
+	position: relative;
+}
+
+.github__link::before {
+	content: '';
+	background-image: url('icons8-github-30.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 60px;
+	bottom: -5px;
+}
